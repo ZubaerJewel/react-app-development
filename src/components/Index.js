@@ -7,14 +7,14 @@ export default class Index extends Component {
       super(props)
     
       this.state = {
-         LogInPage:false
+         LogIn:false
          
       }
     }
     
   render() {
     let element;
-    if(this.state.LogInPage)
+    if(this.state.LogIn)
     {
        element = <HomePage />
     }
